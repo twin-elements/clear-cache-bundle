@@ -44,7 +44,7 @@ class ClearCacheController extends AbstractController
         if($request->headers->get('referer')){
             $redirectUrl = $request->headers->get('referer');
         }else{
-            $redirectUrl = $this->generateUrl('dashboard');
+            $redirectUrl = $this->generateUrl('admin_dashboard');
         }
 
         return $this->redirect($redirectUrl);
