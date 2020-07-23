@@ -2,7 +2,6 @@
     "name": "twin-elements/clear-cache-bundle",
     "description": "Implement clear:cache command into CMS Jelllinek",
     "type": "symfony-bundle",
-    "version": "0.1",
     "license": "MIT",
     "authors": [
         {
