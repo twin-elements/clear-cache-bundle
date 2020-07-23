@@ -1,0 +1,3 @@
+services:
+  TwinElements\ClearCacheBundle\Controller\ClearCacheController:
+    tags: ['controller.service_arguments']
