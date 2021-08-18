@@ -1,0 +1,38 @@
+{
+    "name": "twin-elements/clear-cache-bundle",
+    "description": "Implement clear:cache command for CMS Jelllinek",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Władysław Dudko",
+            "email": "w.dudko@jellinek.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/console": "^4.0",
+        "symfony/http-foundation": "^4.0",
+        "symfony/http-kernel": "^4.0",
+        "symfony/routing": "^4.0",
+        "symfony/framework-bundle": "^4.0",
+        "symfony/yaml": "^4.0",
+        "doctrine/annotations": "^1.6",
+        "twin-elements/admin-bundle": "^1.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^4.0",
+        "phpunit/phpunit": "^9.2",
+        "symfony/browser-kit": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TwinElements\\ClearCacheBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TwinElements\\ClearCacheBundle\\Tests\\": "tests/"
+        }
+    }
+}
