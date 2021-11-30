@@ -10,7 +10,7 @@ use Symfony\Component\Console\Output\BufferedOutput;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Routing\Annotation\Route;
-use TwinElements\Components\Flashes\Flashes;
+use TwinElements\Component\Flashes\Flashes;
 
 class ClearCacheController extends AbstractController
 {
