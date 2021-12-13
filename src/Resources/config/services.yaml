@@ -1,7 +1,0 @@
-services:
-  TwinElements\ClearCacheBundle\Controller\ClearCacheController:
-    tags: ['controller.service_arguments']
-  TwinElements\ClearCacheBundle\Menu\AdminMenu:
-    tags:
-      - { name: 'twin_elements.admin_menu' }
-
